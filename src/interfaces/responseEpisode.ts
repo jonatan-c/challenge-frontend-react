@@ -13,8 +13,7 @@ export interface Info {
 }
 
 export interface IEpisode {
-    [x: string]: object[];
-    id:         number;
+    id:         number| string;
     name:       string;
     air_date:   string;
     episode:    string;

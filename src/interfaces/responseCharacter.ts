@@ -13,7 +13,7 @@ export interface Info {
 }
 
 export interface ICharacter {
-    id:       number;
+    id:       number | string;
     name:     string;
     status:   StatusCharacter;
     species:  SpeciesCharacter;
@@ -87,7 +87,7 @@ export interface Info {
 }
 
 export interface ICharacter {
-    id:       number;
+    id:       number | string;
     name:     string;
     Status:   Status;
     Species:  Species;
